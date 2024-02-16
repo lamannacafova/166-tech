@@ -1,0 +1,32 @@
+.sec-card{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    .card-student{
+        width: 333px;
+        border-radius: 10px;
+        background-color: #f5f6fa;
+        padding: 20px 20px;
+        .star-price{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            margin: 20px 0;
+            span{
+                color: #b2bec3;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+    .sec-card{
+        display: block;
+        .card-student{
+            margin-top: 25px;
+        }
+    }
+}

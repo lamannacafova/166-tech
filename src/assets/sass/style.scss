@@ -1,0 +1,23 @@
+@import "header";
+@import "sec1";
+@import "sec2";
+@import "sec3";
+@import "exsec1";
+@import "exsec2";
+@import "exsec3";
+@import "exsec4";
+@import "footer";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1250px !important;
+}

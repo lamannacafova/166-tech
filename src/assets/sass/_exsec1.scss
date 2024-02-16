@@ -1,0 +1,102 @@
+.cards{
+    width: 100%;
+    height: 400px !important;
+    background-color: #000 !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .exam-about{
+        padding: 20px 15px 20px 30px;
+        h2{
+            color: #fff !important;
+        }
+        ul{
+            padding-left: 0px !important;
+            li{
+                color: #fff;
+                padding: 5px 0;
+            }
+        }
+        .btn{
+            width: 179px;
+            height: 44px;
+            border-radius: 12px;
+            border: none;
+            background-color: #fff;
+            color: #000;
+            margin-top: 25px;
+        }
+    }
+    .images{
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+@media (max-width:576px){
+    .cards{
+        width: 470px;
+        height: 650px !important;
+        display: flex;
+        align-items: baseline !important;
+        .exam-about{
+            padding-top: 35px;
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+        .images{
+            position: absolute;
+            top: 270px;
+            left: 10px !important;
+        }
+    }
+}
+// @media (max-width:768px){
+//     .cards{
+//         width: 570px;
+//         height: 650px !important;
+//         display: flex;
+//         align-items: baseline !important;
+//         .exam-about{
+//             padding-top: 35px;
+//             ul{
+//                 li{
+//                     font-size: 14px;
+//                 }
+//             }
+//         }
+//         .images{
+//             position: absolute;
+//             top: 270px;
+//             left: 10px;
+//         }
+//     }
+// }
+@media (max-width:992px){
+    .cards{
+        width: 470px;
+        height: 650px !important;
+        display: flex;
+        align-items: baseline !important;
+        .exam-about{
+            padding-top: 35px;
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+        .images{
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+.sec-three {
+  margin-top: 100px;
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h5 {
+      font-weight: 500;
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+  }
+  .boxs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .exam-question {
+    .filter-card {
+      max-width: 354px;
+      width: 100%;
+      border-radius: 10px;
+      padding: 25px 25px;
+      h5 {
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 17px;
+        color: #95a5a6;
+      }
+      .active-card {
+        width: 300px;
+      
+    
+        height: 44px;
+        background-color: #000;
+        border-radius: 8px;
+        margin-top: 20px;
+        p {
+          padding: 10px 0 0 15px;
+          color: #fff !important;
+        }
+      }
+      .card-about {
+        width: 300px;
+
+        height: 44px;
+        background-color: #f5f6fa;
+        border-radius: 8px;
+        margin-top: 20px;
+        p {
+          padding: 10px 0 0 15px;
+          color: #000 !important;
+        }
+      }
+      .classes {
+        margin-top: 30px;
+  
+      }
+    }
+  }
+  .classes-about {
+    max-width: 900px;
+    width: 100%;
+
+    padding: 25px 20px 25px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr;
+      gap: 16px;
+     
+
+    }
+    
+    gap: 16px;
+ 
+   
+
+    .class-card {
+      max-width: 415px;
+      width: 100%;
+
+      height: 394px;
+      padding: 30px 20px 0 20px;
+      background-color: #f5f6fa;
+      border-radius: 10px;
+      .second {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 25px;
+        .icon {
+          margin-right: 10px;
+        }
+        .star {
+          .icon {
+            margin-right: 4px !important;
+          }
+        }
+        .point {
+          margin-right: 4px;
+        }
+        .between {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+      .question {
+        margin-top: 20px;
+        h5 {
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+        ul {
+          padding-left: 12px !important;
+
+          li {
+            list-style-type: disc !important ;
+          }
+        }
+      }
+      .line {
+        height: 2px;
+        background-color: #dfe6e9;
+        margin: 20px 0;
+      }
+      .buttons {
+        width: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+          width: 111px;
+          height: 33px;
+          background-color: #dcdde1;
+          border-radius: 15px;
+          border: none;
+        }
+      }
+      .btn {
+        width: 100%;
+        height: 46px;
+        border-radius: 12px;
+        border: none;
+        margin-top: 25px;
+        border: 2px solid #000;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .sec-three {
+    width: 100%;
+    height: auto;
+    .boxs {
+      width: 40px;
+      display: flex;
+      flex-direction: column;
+      .exam-question {
+        .filter-card {
+          margin-left: 0 !important;
+         
+        
+        }
+      }
+      .classes-about {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sec-three {
+    width: 100%;
+    height: auto;
+    .boxs {
+      display: flex;
+      flex-direction: column;
+      .exam-question {
+        .filter-card {
+          margin-left: 40px;
+         
+         
+        }
+      }
+      .classes-about {
+        margin-left: 40px;
+      }
+    }
+  }
+}

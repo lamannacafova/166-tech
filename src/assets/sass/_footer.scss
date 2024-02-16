@@ -1,0 +1,173 @@
+footer{
+    margin-top: 100px;
+    width: 100%;
+    .footer-about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .logo{
+            h1{
+                font-size:35px;
+                font-weight: 700;
+            }
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            ul{
+                display: flex;
+                align-items: center;
+                margin-bottom: 0 !important;
+                li{
+                   padding: 0 25px 0 25px;
+                    a{
+                        color: #000;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        .mail-box{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            .mail{
+                width: 35px;
+                height: 35px;
+                background-color: #dfe6e9;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            p{
+              margin-bottom: 0 !important;
+            }
+        }
+        .phone-box{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-top: 25px;
+            .phone{
+                width: 35px;
+                height: 35px;
+                background-color: #dfe6e9;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            p{
+              margin-bottom: 0 !important;
+            }
+        }
+       
+    }
+    .networking{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+            .instagram{
+                width: 35px;
+                height: 35px;
+                background-color: #dfe6e9;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon{
+                    font-size: 23px !important;
+                }
+        }
+        .facebook{
+            width: 35px;
+            height: 35px;
+            background-color: #dfe6e9;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+                font-size: 19px !important;
+            }
+        }
+        .whatsap{
+            width: 35px;
+            height: 35px;
+            background-color: #dfe6e9;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+                font-size: 19px !important;
+            }
+        }
+        .telegram{
+            width: 35px;
+            height: 35px;
+            background-color: #dfe6e9;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+                font-size: 19px !important;
+            }
+        }
+    }
+  .bg-line{
+      height: 2px;
+      background-color: #dfe6e9;
+      margin: 20px 0 20px 0;
+  }
+}
+
+@media (max-width:576px){
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 40px !important;
+        .list{
+            display: none !important;
+            ul{
+                display: none !important;
+            }
+        }
+        .networking{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 30px;
+        }
+        .bg-line{
+            width: 450px;
+        }
+    }
+}
+@media (max-width:768px){
+    footer{
+        width: 100%;
+        height: auto;
+        margin-top: 40px !important;
+        .list{
+            display: none !important;
+            ul{
+                display: none !important;
+            }
+        }
+        .networking{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 30px;
+        }
+       
+    }
+}

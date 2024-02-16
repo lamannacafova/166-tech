@@ -1,0 +1,36 @@
+.all-card{
+    position: relative;
+    .image{
+        width: 100%;
+        height: 700px;
+        background-image: url("https://s3-alpha-sig.figma.com/img/c8e9/9455/4ddcf05011882c1bc460ad52edea9051?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TTRvr6I0ZfZBnJt7d8DuYK-ZkDhVYqoKqyBlGE3e8DAqmgYX4EcaEknLJghXhZeYG52vjmtvJLf~5IQ020JCl~gb~q-kRnaDaAhiQhYsFEJUGFAsG97EdBvJRodSn3L9hnmIKHl8MzwdcVwjP~fkevJhZNr68WMHRm-HR2vbwV2bTtGxzcsZu-UNpKS8EBl8v~iC1xSS83IKJtHBJ0gUTcehYUTTx0FQ4KgvkGy3aF~Kp44VJr5WZzWndO-~VbKGeR96R4tF2zxJr8p5UzGfS7c2UvNI6ZNb-PRVFmu~rwtvSW~GK9YptXj-zYhbRjD4c~pS~fpGyiUp~dScA5jyRg__");
+        background-position: center;
+        background-size: cover;
+        // filter: grayscale(30%);
+        .exams{
+           position: absolute;
+           top: 245px;
+           width:52%;
+            color: #fff;
+            h2{
+                font-size:54px;
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 17px;
+                line-height: 1.55;
+            }
+        }
+    }
+}
+@media (max-width: 576px) { 
+   .all-card{
+       .exams{
+           width: 75% !important;
+           p{
+               font-size:15px !important ;
+           }
+       }
+   } 
+}
